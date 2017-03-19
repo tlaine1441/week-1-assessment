@@ -4,7 +4,7 @@ main {
 	margin: 0 auto;
 }
 .container {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	position: relative;
 	bottom: 200px;
@@ -19,12 +19,12 @@ main {
 
 #col-1 {
 	display: inline-block;
-	width: 40%;
+	width: 35%;
 }
 
 #col-2 {
 	display: inline-block;
-	width: 50%;
+	width: 54%;
 }
 
 #home-img {
@@ -42,21 +42,52 @@ main {
 
 #frame {
 	background-image: url(../images/frame.png);
-	background-size: cover;
-	padding: 15px;
-	width: 90%;
+	background-size: 100% 100%;
+	padding: 50px 80px 50px 70px;
 }
 
-.brand-container {
+#brand-container {
+	padding: 0 8px 0 5px;
+}
 
+#badge-container {
+	margin-top: 60px;
+	
+}
 
+#badge-container img {
+	margin-right: 18px;
+}
+
+#footer-container {
+	margin-top: 60px;
+	padding-right: 130px;
+	text-align: center;
+}
+#footer-container a {
+	display: inline-block;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	color: rgb(101,142,176);
+	margin-right: 15px;
+	letter-spacing: -.5px;
+}
+#footer-container p {
+	display: inline-block;
+}
+
+#copy-right {
+	color: #aaa;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
 }
 
 button {
 	display: inline-block;
 	float: right;
 	margin-top: 20px;
-	padding: 8px 12px 8px 8px;
+	padding: 10px 13px 10px 9px;
 	border-radius: 3px;
 	background: linear-gradient(rgb(103,145,178), rgb(59,113,154));
 	border: 1px solid rgb(40, 93, 135);
@@ -71,3 +102,41 @@ button p {
 	font-size: 14px;
 	letter-spacing: .5px;
 }
+
+
+h1 {
+	color: rgb(20,66,105);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+#frame p {
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
