@@ -107,6 +107,10 @@ footer {
 	line-height: 1.4;
 }
 
+#frame em {
+	font-weight: 600;
+}
+
 /*-- Branding --*/
 
 #brand-container {
