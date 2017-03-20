@@ -190,6 +190,11 @@ button:hover {
 	border: 1px solid rgb(20, 73, 120);
 }
 
+button:active {
+	color: rgb(53,83,109);
+	background: linear-gradient(rgb(86,128,164), rgb(59,106,149));
+}
+
 #footer-container a:hover {
 	color: rgb(57,91,119);
 }
