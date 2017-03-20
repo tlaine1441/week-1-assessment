@@ -1,8 +1,7 @@
 /*-- To Hide Scroll --*/
 
-body, html { 
-    overflow: hidden;
-    position:fixed;
+body, html {
+	overflow: hidden;
 }
 
 /*-- Main --*/
