@@ -1,4 +1,6 @@
 
+/*-- Main --*/
+
 main {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -10,6 +12,25 @@ main {
 	bottom: 200px;
 }
 
+h1 {
+	color: rgb(20,66,105);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+/*-- Footer List Items --*/
+
+ul{
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+}
+
+/*-- Top Background --*/
+
 #top-bg {
 	background: rgb(79,125,163);
 	margin: 0;
@@ -17,15 +38,25 @@ main {
 	background: linear-gradient(rgb(79,125,163), black 300%);
 }
 
+/*-- Colums --*/
+
 #col-1 {
 	display: inline-block;
+	float: left;
 	width: 35%;
+	padding-left: 20px;
+	margin-bottom: 40px;
 }
 
 #col-2 {
 	display: inline-block;
-	width: 54%;
+	float: right;
+	width: 53%;
+	padding-right: 95px;
+	margin-bottom: 40px;
 }
+
+/*-- Images --*/
 
 #home-img {
 	display: inline-block;
@@ -40,11 +71,21 @@ main {
 	margin-right: 32px;
 }
 
+/*-- Frame --*/
+
 #frame {
 	background-image: url(../images/frame.png);
 	background-size: 100% 100%;
 	padding: 50px 80px 50px 70px;
 }
+
+#frame p {
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.4;
+}
+
+/*-- Branding --*/
 
 #brand-container {
 	padding: 0 8px 0 5px;
@@ -59,11 +100,14 @@ main {
 	margin-right: 18px;
 }
 
+/*-- Footer --*/
+
 #footer-container {
-	margin-top: 60px;
-	padding-right: 130px;
+	padding-right: 100px;
 	text-align: center;
+	clear: both;
 }
+
 #footer-container a {
 	display: inline-block;
 	text-decoration: none;
@@ -73,15 +117,21 @@ main {
 	margin-right: 15px;
 	letter-spacing: -.5px;
 }
+
 #footer-container p {
 	display: inline-block;
 }
+
+/*-- Copyright --*/
 
 #copy-right {
 	color: #aaa;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
+	padding-left: 10px;
 }
+
+/*-- Button --*/
 
 button {
 	display: inline-block;
@@ -104,18 +154,6 @@ button p {
 }
 
 
-h1 {
-	color: rgb(20,66,105);
-	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	margin-bottom: 8px;
-}
-
-#frame p {
-	margin-top: 20px;
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.4;
-}
 
 
 
