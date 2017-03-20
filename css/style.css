@@ -23,10 +23,15 @@ h1 {
 
 ul{
 	display: inline-block;
+	list-style: none;
 }
 
 li {
 	display: inline-block;
+}
+
+footer {
+	text-transform: uppercase;
 }
 
 /*-- Top Background --*/
@@ -35,6 +40,8 @@ li {
 	background: rgb(79,125,163);
 	margin: 0;
 	height: 280px;
+	background: -webkit-linear-gradient(rgb(79,125,163), black 300%);
+	background: -o-linear-gradient(rgb(79,125,163), black 300%);
 	background: linear-gradient(rgb(79,125,163), black 300%);
 }
 
@@ -137,12 +144,14 @@ button {
 	display: inline-block;
 	float: right;
 	margin-top: 20px;
+	color: #eee;
 	padding: 10px 13px 10px 9px;
 	border-radius: 3px;
+	background: -webkit-linear-gradient(rgb(103,145,178), rgb(59,113,154));
+	background: -o-linear-gradient(rgb(103,145,178), rgb(59,113,154));
 	background: linear-gradient(rgb(103,145,178), rgb(59,113,154));
 	border: 1px solid rgb(40, 93, 135);
 	outline: none;
-
 }
 
 button p {
@@ -151,6 +160,18 @@ button p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	letter-spacing: .5px;
+}
+
+/*-- SUDO CLASSES--*/
+
+button:hover {
+	color: rgb(53,83,109);
+	background: linear-gradient(rgb(106,148,184), rgb(69,116,159));
+	border: 1px solid rgb(20, 73, 120);
+}
+
+#footer-container a:hover {
+	color: rgb(57,91,119);
 }
 
 
